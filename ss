@@ -382,7 +382,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local XyphoAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Xepline/SILENTAIMXYPHO/main/s"))()
+local XyphoAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Xepline/SILENTAIMXYPHO/main/ss"))()
 
 -- // Hook
 mt.__namecall = newcclosure(function(...)
@@ -414,7 +414,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local XyphoAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Xepline/SILENTAIMXYPHO/main/s"))()
+local XyphoAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Xepline/SILENTAIMXYPHO/main/ss"))()
 
 -- // Hook
 mt.__index = newcclosure(function(t, k)
